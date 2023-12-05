@@ -1,5 +1,20 @@
+body {
+    margin: 0 auto;
+}
 /* Homepage Code Below */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
 
+.nav-links {
+    display: flex;
+
+}
 
 /* Calculator Code Below */
 
