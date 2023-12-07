@@ -218,5 +218,6 @@ footer {
 .hamburger-menu {
     height: 50px;
     width: 50px;
-    background-color: #4CAF50;
+    background-color: darkgrey;
+    border-radius: 10px;
 }
