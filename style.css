@@ -10,3 +10,213 @@ nav {
     align-items: center;
     padding: 25px;
 }
+
+.nav-links {
+    display: flex;
+
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#welcome, #about, #approach, #services, #join-us, #contact {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#about, #approach, #services {
+    background-color: #f8f8f8;
+}
+
+#join-us {
+    background-color: #eaeaea;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    #welcome, #about, #approach, #services, #join-us, #contact {
+        padding: 20px;
+    }
+}
+
+/* Calculator Code Below */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color:lightgrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav img {
+    max-width: 100%;
+    height: auto;
+}
+
+#nav-links {
+    display: flex;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Welcome Section Styles */
+#welcome {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Calculations Section Styles */
+#calculations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#description {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
+#result {
+    font-weight: bold;
+}
+
+/* How It Works Section Styles */
+#how-it-works {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    #calculations {
+        flex-direction: column;
+    }
+
+    #description {
+        width: 100%;
+        max-width: none;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #nav-links {
+        display: none;
+    }
+
+    #calculations {
+        flex-direction: column;
+    }
+
+    #description {
+        width: 100%;
+        max-width: none;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Contact Code Below */
+/* Reset some default margin and padding */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+
+
+#nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the main content */
+p {
+    margin: 20px;
+}
+
+#contact-us {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
