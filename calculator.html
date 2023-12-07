@@ -37,13 +37,13 @@
             <h2>Inches to Centimeters Conversion: </h2>
             <p>Witness the magic as InnoCalc converts inches to centimeters with an imaginative flair.</p>
         </div>
-        <form action="">
-            <label for="firstnumber">Input Number</label>
-            <input type="text" name="firstnumber" id="fistnumber">
-        </form>
-            <button id="temp">Calculate</button>
-            <button id="feet-miles">Calculate</button>
-            <button id="inches-cent">Calculate</button>
+            <input id="input" placeholder="Input">
+    
+            <button onclick="convert('fahrenheit')">Fahrenheit</button>
+            <button onclick="convert('miles')">Miles</button>
+            <button onclick="convert('centimeters')">Centimeters</button>
+
+            <span id="result"></span>
     </div>
 
     <h3>Output</h3>
@@ -63,6 +63,35 @@
     <p>InnoCalc may have a limited range of functions, but its imaginative touch makes every transformation an adventure. Explore these essential conversions with a sprinkle of creativity and innovation.</p>
 
     <footer></footer>
+    <script>
+        // function convert() {
+        //     const fahrenheit = parseInt (document.getElementById("input").value);
+            
+        //     const celsius = (input - 32) * 0.5556;
+
+        //     document.getElementById("celsius").innerText = celsius; 
+        // }
+        function convert(type) {
+        const inputValue = parseFloat(document.getElementById("input").value);
+        let result = "";
+
+        if (type === 'fahrenheit') {
+            // Fahrenheit to Celsius conversion
+            const celsius = (inputValue - 32) * 5/9;
+            result = `${inputValue.toFixed(2)} Fahrenheit is ${celsius.toFixed(2)} Celsius.`;
+        } else if (type === 'miles') {
+            // Feet to Miles conversion
+            const miles = inputValue / 5280; // Approximate conversion factor
+            result = `${inputValue.toFixed(2)} Feet is approximately ${miles.toFixed(6)} Miles.`;
+        } else if (type === 'centimeters') {
+            // Inches to Centimeters conversion
+            const centimeters = inputValue * 2.54; // Exact conversion factor
+            result = `${inputValue.toFixed(2)} Inches is ${centimeters.toFixed(2)} Centimeters.`;
+        }
+
+        document.getElementById("result").innerText = result;
+    }
+    </script>
 </body>
 
 </html>
