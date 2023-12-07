@@ -10,16 +10,28 @@
 </head>
 
 <body>
+    <div 
+    class="container">
+    <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider"></span>
+    </label>
 
     <nav>
-        <img src="./photos/islogo.png" alt="imaginary solution logo">
-        <div id="nav-links">
-            <a href="index.html">Home</a>
-            <a href="calculator.html">Calculator</a>
-            <a href="contact.html">Contact</a>
-        </div>
+        <img class="nav-center" src="./photos/islogo.png" alt="imaginary solution logo">
+        <div class="nav-links">
+           <div class="links">
+                <a href="index.html">Home</a>
+                <a href="calculator.html">Calculator</a>
+                <a href="contact.html">Contact</a>
+             </div> 
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div> </div>
     </nav>
-   
+    
 
     <div id="welcome">
         <h2>Welcome to Imaginary Solutions Inc.</h2>
@@ -71,6 +83,9 @@
             can turn your imaginative dreams into fictional realities.</p>
     </div>
     <footer></footer>
+</div>
+
+   <script src="script.js"></script>
 </body>
 
 </html>
