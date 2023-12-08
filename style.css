@@ -1,6 +1,4 @@
-body {
-    margin: 0 auto;
-}
+
 /* Homepage Code Below */
 nav {
     display: flex;
@@ -16,9 +14,10 @@ nav {
 
 }
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'verdena', sans-serif;
     margin: 0;
     padding: 0;
+    margin: 0 auto;
 }
 
 #welcome, #about, #approach, #services, #join-us, #contact {
@@ -50,13 +49,6 @@ footer {
     padding: 20px;
 }
 
-
-/* Calculator Code Below */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 /* Navigation Styles */
 nav {
