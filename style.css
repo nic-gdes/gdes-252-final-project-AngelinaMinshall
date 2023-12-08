@@ -522,3 +522,34 @@ nav {
       filter: hue-rotate(60deg); /* Yellow */
     }
   }
+
+  /* modal */
+  #modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #234876;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+#openModalBtn {
+    display: inline-block;
+    padding: 10px 15px; 
+    color: #234876;
+    border-radius: 30px; 
+    text-decoration: none;
+    border: 2px solid #234876;
+    font-size: 21px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#openModalBtn :hover {
+    background-color: #CCCCCC;
+color: white;
+}
