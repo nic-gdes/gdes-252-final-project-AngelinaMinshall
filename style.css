@@ -50,12 +50,6 @@ footer {
     padding: 20px;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 600px) {
-    #welcome, #about, #approach, #services, #join-us, #contact {
-        padding: 20px;
-    }
-}
 
 /* Calculator Code Below */
 body {
@@ -219,4 +213,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.hamburger-menu {
+    height: 50px;
+    width: 50px;
+    background-color: darkgrey;
+    border-radius: 10px;
 }
