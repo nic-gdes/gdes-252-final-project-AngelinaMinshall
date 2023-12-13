@@ -23,6 +23,7 @@ body {
 #welcome, #about, #approach, #services, #join-us, #contact {
     padding: 40px;
     text-align: center;
+   
 }
 
 h2 {
@@ -552,4 +553,10 @@ nav {
 #openModalBtn :hover {
     background-color: #CCCCCC;
 color: white;
+}
+
+.min-width {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
 }
